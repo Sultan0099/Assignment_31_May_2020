@@ -21,4 +21,4 @@ steps:
 - script: surge --version
   displayName: checking surge is installed or not
 
-- script: surge ./ synonymous-design.surge.sh --token ${{secrets.SURGE_TOKEN}}
+- script: surge ./ synonymous-design.surge.sh --token ${{SURGE_TOKEN}}
